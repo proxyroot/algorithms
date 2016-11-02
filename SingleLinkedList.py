@@ -1,3 +1,9 @@
+"""
+    Author: Afroze Khan
+    Created: 11/2/2016
+    Description: Program to implement single linked list
+"""
+
 class Node(object):
     pointer = None
     def __init__(self, value):
@@ -53,3 +59,33 @@ objLinkList.display()
 print "Deleting 3"
 objLinkList.delete(3)
 objLinkList.display()
+
+"""
+Output:
+After inserting values:
+1 ->
+4 ->
+2 ->
+10 ->
+6 ->
+5 ->
+3
+Deleting 1
+4 ->
+2 ->
+10 ->
+6 ->
+5 ->
+3
+Deleting 10
+4 ->
+2 ->
+6 ->
+5 ->
+3
+Deleting 3
+4 ->
+2 ->
+6 ->
+5
+"""
