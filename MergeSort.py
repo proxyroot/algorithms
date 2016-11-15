@@ -8,6 +8,11 @@ class MergeSort(object):
         self.arr = arr
 
     def merge(self, arr1, arr2):
+        """
+        type arr1: list
+        type arr2: list
+        rtype: list
+        """
         i = 0
         j = 0
         res = []
